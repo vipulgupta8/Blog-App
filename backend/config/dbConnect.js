@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { DB_URL } = require("./dotenv.config");
+const { DB_URL } = require("./dotenv.config.js");
 
 async function dbConnect() {
   try {
